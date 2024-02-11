@@ -15,6 +15,7 @@ class Meal:
         self.cuisines = [each.lower() for each in self.data["cuisines"]]
         self.time = self.data["readyInMinutes"]
         self.servings = self.data["servings"]
+        self.url = self.data["spoonacularSourceUrl"]
 
     def parse_nutrition(self, nutrients):
         temp = {}
@@ -110,7 +111,7 @@ class MealPlan:
         return np.sum(costs)
 
 class User:
-    # demographics: age, gender, height, weight, exercise
+    # demographics: age, gender, activity, weight, height_ft, height_in
     # goals: gain weight, lose weight, gain muscle
     # restrictions: restrictions
     # preferences: cuisines
@@ -149,3 +150,4 @@ class User:
         calories = User.calculate_calories() + 200 * User._goals[0] - 200 * User._goals[1]
         User.dv = np.array([100.0] * len(util.NUTRIENTS_LIST)) * (calories / 2000)
         User.dv[-1] += 30.0 * User._goals[2]
+    
