@@ -1,0 +1,567 @@
+{
+    "vegetarian": true,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": false,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 12,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 2,
+    "healthScore": 52,
+    "creditsText": "foodista.com",
+    "sourceName": "foodista.com",
+    "pricePerServing": 439.95,
+    "extendedIngredients": [
+        {
+            "id": 11265,
+            "aisle": "Produce",
+            "image": "portabello-mushrooms.jpg",
+            "consistency": "SOLID",
+            "name": "baby portabella mushrooms",
+            "nameClean": "portobello mushrooms",
+            "original": "12 Baby Portabella Mushrooms, sliced",
+            "originalName": "Baby Portabella Mushrooms, sliced",
+            "amount": 12.0,
+            "unit": "",
+            "meta": [
+                "sliced"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 12.0,
+                    "unitShort": "",
+                    "unitLong": ""
+                },
+                "metric": {
+                    "amount": 12.0,
+                    "unitShort": "",
+                    "unitLong": ""
+                }
+            }
+        },
+        {
+            "id": 2015,
+            "aisle": "Spices and Seasonings",
+            "image": "curry-powder.jpg",
+            "consistency": "SOLID",
+            "name": "curry powder",
+            "nameClean": "curry powder",
+            "original": "3 tablespoons Dry Curry Powder",
+            "originalName": "Dry Curry Powder",
+            "amount": 3.0,
+            "unit": "tablespoons",
+            "meta": [
+                "dry"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 3.0,
+                    "unitShort": "Tbsps",
+                    "unitLong": "Tbsps"
+                },
+                "metric": {
+                    "amount": 3.0,
+                    "unitShort": "Tbsps",
+                    "unitLong": "Tbsps"
+                }
+            }
+        },
+        {
+            "id": 2003,
+            "aisle": "Spices and Seasonings",
+            "image": "basil.jpg",
+            "consistency": "SOLID",
+            "name": "basil leaves",
+            "nameClean": "dried basil",
+            "original": "2 tablespoons Dried Basil Leaves",
+            "originalName": "Dried Basil Leaves",
+            "amount": 2.0,
+            "unit": "tablespoons",
+            "meta": [
+                "dried"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 2.0,
+                    "unitShort": "Tbsps",
+                    "unitLong": "Tbsps"
+                },
+                "metric": {
+                    "amount": 2.0,
+                    "unitShort": "Tbsps",
+                    "unitLong": "Tbsps"
+                }
+            }
+        },
+        {
+            "id": 11209,
+            "aisle": "Produce",
+            "image": "eggplant.png",
+            "consistency": "SOLID",
+            "name": "eggplants",
+            "nameClean": "eggplant",
+            "original": "1 Eggplants",
+            "originalName": "Eggplants",
+            "amount": 1.0,
+            "unit": "",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 1.0,
+                    "unitShort": "",
+                    "unitLong": ""
+                },
+                "metric": {
+                    "amount": 1.0,
+                    "unitShort": "",
+                    "unitLong": ""
+                }
+            }
+        },
+        {
+            "id": 11463,
+            "aisle": "Frozen",
+            "image": "spinach-frozen.jpg",
+            "consistency": "SOLID",
+            "name": "spinach",
+            "nameClean": "frozen spinach",
+            "original": "10 ounces Frozen chopped Spinach, with excess water squeezed out",
+            "originalName": "Frozen chopped Spinach, with excess water squeezed out",
+            "amount": 10.0,
+            "unit": "ounces",
+            "meta": [
+                "frozen",
+                "with excess water squeezed out",
+                "chopped"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 10.0,
+                    "unitShort": "oz",
+                    "unitLong": "ounces"
+                },
+                "metric": {
+                    "amount": 283.495,
+                    "unitShort": "g",
+                    "unitLong": "grams"
+                }
+            }
+        },
+        {
+            "id": 1049,
+            "aisle": "Milk, Eggs, Other Dairy",
+            "image": "fluid-cream.jpg",
+            "consistency": "SOLID",
+            "name": "heavy cream",
+            "nameClean": "half and half",
+            "original": "1/2 cup Half & Half or Heavy Cream",
+            "originalName": "Half & Half or Heavy Cream",
+            "amount": 0.5,
+            "unit": "cup",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 0.5,
+                    "unitShort": "cups",
+                    "unitLong": "cups"
+                },
+                "metric": {
+                    "amount": 121.0,
+                    "unitShort": "ml",
+                    "unitLong": "milliliters"
+                }
+            }
+        },
+        {
+            "id": 1001025,
+            "aisle": "Cheese",
+            "image": "shredded-cheese-white.jpg",
+            "consistency": "SOLID",
+            "name": "montery jack & cheddar cheese mix",
+            "nameClean": "monterey jack cheese",
+            "original": "12 ounces Montery Jack & Cheddar Cheese Mix",
+            "originalName": "Montery Jack & Cheddar Cheese Mix",
+            "amount": 12.0,
+            "unit": "ounces",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 12.0,
+                    "unitShort": "oz",
+                    "unitLong": "ounces"
+                },
+                "metric": {
+                    "amount": 340.194,
+                    "unitShort": "g",
+                    "unitLong": "grams"
+                }
+            }
+        },
+        {
+            "id": 11979,
+            "aisle": "Ethnic Foods",
+            "image": "jalapeno-pepper.png",
+            "consistency": "SOLID",
+            "name": "jalapenos",
+            "nameClean": "jalapeno pepper",
+            "original": "2 Jalapenos, finely chopped",
+            "originalName": "Jalapenos, finely chopped",
+            "amount": 2.0,
+            "unit": "",
+            "meta": [
+                "finely chopped"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 2.0,
+                    "unitShort": "",
+                    "unitLong": ""
+                },
+                "metric": {
+                    "amount": 2.0,
+                    "unitShort": "",
+                    "unitLong": ""
+                }
+            }
+        },
+        {
+            "id": 10111549,
+            "aisle": "Pasta and Rice",
+            "image": "tomato-sauce-or-pasta-sauce.jpg",
+            "consistency": "SOLID",
+            "name": "marinara sauce",
+            "nameClean": "marinara sauce",
+            "original": "3 cups Marinara Sauce (home made or a jar of 24 oz store bought)",
+            "originalName": "Marinara Sauce (home made or a jar of 24 oz store bought)",
+            "amount": 3.0,
+            "unit": "cups",
+            "meta": [
+                "store bought",
+                "(home made or a jar of 24 oz )"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 3.0,
+                    "unitShort": "cups",
+                    "unitLong": "cups"
+                },
+                "metric": {
+                    "amount": 735.0,
+                    "unitShort": "ml",
+                    "unitLong": "milliliters"
+                }
+            }
+        },
+        {
+            "id": 1102047,
+            "aisle": "Spices and Seasonings",
+            "image": "salt-and-pepper.jpg",
+            "consistency": "SOLID",
+            "name": "salt & pepper",
+            "nameClean": "salt and pepper",
+            "original": "Salt & Pepper, to taste",
+            "originalName": "Salt & Pepper, to taste",
+            "amount": 6.0,
+            "unit": "servings",
+            "meta": [
+                "to taste"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 6.0,
+                    "unitShort": "servings",
+                    "unitLong": "servings"
+                },
+                "metric": {
+                    "amount": 6.0,
+                    "unitShort": "servings",
+                    "unitLong": "servings"
+                }
+            }
+        },
+        {
+            "id": 11507,
+            "aisle": "Produce",
+            "image": "sweet-potato.png",
+            "consistency": "SOLID",
+            "name": "sweet potatoes",
+            "nameClean": "sweet potato",
+            "original": "4 Sweet Potatoes",
+            "originalName": "Sweet Potatoes",
+            "amount": 4.0,
+            "unit": "",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 4.0,
+                    "unitShort": "",
+                    "unitLong": ""
+                },
+                "metric": {
+                    "amount": 4.0,
+                    "unitShort": "",
+                    "unitLong": ""
+                }
+            }
+        },
+        {
+            "id": 4669,
+            "aisle": "Oil, Vinegar, Salad Dressing",
+            "image": "vegetable-oil.jpg",
+            "consistency": "SOLID",
+            "name": "vegetable cooking oil",
+            "nameClean": "vegetable oil",
+            "original": "1 tablespoon Canola or Vegetable Cooking Oil",
+            "originalName": "Canola or Vegetable Cooking Oil",
+            "amount": 1.0,
+            "unit": "tablespoon",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 1.0,
+                    "unitShort": "Tbsp",
+                    "unitLong": "Tbsp"
+                },
+                "metric": {
+                    "amount": 1.0,
+                    "unitShort": "Tbsp",
+                    "unitLong": "Tbsp"
+                }
+            }
+        }
+    ],
+    "id": 647563,
+    "title": "How Sweet It Is Sweet Potato Lasagne",
+    "readyInMinutes": 45,
+    "servings": 6,
+    "sourceUrl": "http://www.foodista.com/recipe/LYPLYH8P/how-sweet-it-is-sweet-potato-lasagne",
+    "image": "https://spoonacular.com/recipeImages/647563-556x370.jpg",
+    "imageType": "jpg",
+    "summary": "How Sweet It Is Sweet Potato Lasagne is a main course that serves 6. For <b>$4.4 per serving</b>, this recipe <b>covers 44%</b> of your daily requirements of vitamins and minerals. One serving contains <b>501 calories</b>, <b>25g of protein</b>, and <b>24g of fat</b>. This recipe from Foodista has 2 fans. This recipe is typical of Mediterranean cuisine. It is a good option if you're following a <b>gluten free and lacto ovo vegetarian</b> diet. If you have eggplants, jalapenos, basil leaves, and a few other ingredients on hand, you can make it. From preparation to the plate, this recipe takes about <b>45 minutes</b>. Overall, this recipe earns an <b>amazing spoonacular score of 84%</b>. Similar recipes are <a href=\"https://spoonacular.com/recipes/how-sweet-it-is-sweet-potato-lasagne-1224435\">How Sweet It Is Sweet Potato Lasagne</a>, <a href=\"https://spoonacular.com/recipes/twice-baked-sweet-potato-potato-skins-with-pecan-streusel-aka-individual-sweet-potato-casserole-247725\">Twice Baked Sweet Potato Potato Skins with Pecan Streusel (akan Individual Sweet Potato Casserole)</a>, and <a href=\"https://spoonacular.com/recipes/twice-baked-sweet-potato-potato-skins-with-pecan-streusel-aka-individual-sweet-potato-casserole-1189579\">Twice Baked Sweet Potato Potato Skins with Pecan Streusel (akan Individual Sweet Potato Casserole)</a>.",
+    "cuisines": [
+        "Mediterranean",
+        "Italian",
+        "European"
+    ],
+    "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+    ],
+    "diets": [
+        "gluten free",
+        "lacto ovo vegetarian"
+    ],
+    "occasions": [],
+    "instructions": "<ol><li>Slice the Sweet Potato into 1/4 inch thick slices. Boil until semi-cooked (about 10 min). Rub the slices with a dry curry powder & olive oil (1cup) mixture. Set aside and let marinate for at least 10 min.</li><li>Slice Eggplants into 1/4 inch thick slices and rub all over with an olive oil (1 cup)/dried basil/salt & pepper mix. Set aside and let marinate for at least 15 min.</li><li>Pour canola or vegetable cooking oil into a pan. Saute spinach and mushrooms for about 3-5 min, add in jalapenos and salt & pepper to taste.</li><li>Turn the heat down and add in some heavy cream and about 1/2 of the mexican cheeses until mixture is creamy, but not watery.</li><li>Start layering the lasagne in this order: Sweet Potatoes, Spinach/Mushroom Mix, Eggplants, Marinara Sauce, Sweet Potatoes, Spinach/Mushrom Mix, Eggplants, Then finally sprinkle the remaining Monterey Jack/Cheddar Cheese Blend on top.</li><li>Bake at 350-375 for about 35-45 min, depending on how your oven works. You'll know it's ready when you can pass through a fork easily through all the layers.</li><li>Devour with Passion</li></ol>",
+    "analyzedInstructions": [
+        {
+            "name": "",
+            "steps": [
+                {
+                    "number": 1,
+                    "step": "Slice the Sweet Potato into 1/4 inch thick slices. Boil until semi-cooked (about 10 min). Rub the slices with a dry curry powder & olive oil (1cup) mixture. Set aside and let marinate for at least 10 min.Slice Eggplants into 1/4 inch thick slices and rub all over with an olive oil (1 cup)/dried basil/salt & pepper mix. Set aside and let marinate for at least 15 min.",
+                    "ingredients": [
+                        {
+                            "id": 1102047,
+                            "name": "salt and pepper",
+                            "localizedName": "salt and pepper",
+                            "image": "salt-and-pepper.jpg"
+                        },
+                        {
+                            "id": 2015,
+                            "name": "curry powder",
+                            "localizedName": "curry powder",
+                            "image": "curry-powder.jpg"
+                        },
+                        {
+                            "id": 11507,
+                            "name": "sweet potato",
+                            "localizedName": "sweet potato",
+                            "image": "sweet-potato.png"
+                        },
+                        {
+                            "id": 2003,
+                            "name": "dried basil",
+                            "localizedName": "dried basil",
+                            "image": "basil.jpg"
+                        },
+                        {
+                            "id": 11209,
+                            "name": "eggplant",
+                            "localizedName": "eggplant",
+                            "image": "eggplant.png"
+                        },
+                        {
+                            "id": 4053,
+                            "name": "olive oil",
+                            "localizedName": "olive oil",
+                            "image": "olive-oil.jpg"
+                        },
+                        {
+                            "id": 1012034,
+                            "name": "dry seasoning rub",
+                            "localizedName": "dry seasoning rub",
+                            "image": "seasoning.png"
+                        }
+                    ],
+                    "equipment": [],
+                    "length": {
+                        "number": 35,
+                        "unit": "minutes"
+                    }
+                },
+                {
+                    "number": 2,
+                    "step": "Pour canola or vegetable cooking oil into a pan.",
+                    "ingredients": [
+                        {
+                            "id": 4669,
+                            "name": "vegetable oil",
+                            "localizedName": "vegetable oil",
+                            "image": "vegetable-oil.jpg"
+                        }
+                    ],
+                    "equipment": [
+                        {
+                            "id": 404645,
+                            "name": "frying pan",
+                            "localizedName": "frying pan",
+                            "image": "pan.png"
+                        }
+                    ]
+                },
+                {
+                    "number": 3,
+                    "step": "Saute spinach and mushrooms for about 3-5 min, add in jalapenos and salt & pepper to taste.Turn the heat down and add in some heavy cream and about 1/2 of the mexican cheeses until mixture is creamy, but not watery.Start layering the lasagne in this order: Sweet Potatoes, Spinach/Mushroom",
+                    "ingredients": [
+                        {
+                            "id": 11507,
+                            "name": "sweet potato",
+                            "localizedName": "sweet potato",
+                            "image": "sweet-potato.png"
+                        },
+                        {
+                            "id": 1102047,
+                            "name": "salt and pepper",
+                            "localizedName": "salt and pepper",
+                            "image": "salt-and-pepper.jpg"
+                        },
+                        {
+                            "id": 1053,
+                            "name": "heavy cream",
+                            "localizedName": "heavy cream",
+                            "image": "fluid-cream.jpg"
+                        },
+                        {
+                            "id": 11979,
+                            "name": "jalapeno pepper",
+                            "localizedName": "jalapeno pepper",
+                            "image": "jalapeno-pepper.png"
+                        },
+                        {
+                            "id": 11260,
+                            "name": "mushrooms",
+                            "localizedName": "mushrooms",
+                            "image": "mushrooms.png"
+                        },
+                        {
+                            "id": 10011457,
+                            "name": "spinach",
+                            "localizedName": "spinach",
+                            "image": "spinach.jpg"
+                        }
+                    ],
+                    "equipment": [],
+                    "length": {
+                        "number": 5,
+                        "unit": "minutes"
+                    }
+                },
+                {
+                    "number": 4,
+                    "step": "Mix, Eggplants, Marinara Sauce, Sweet Potatoes, Spinach/Mushrom",
+                    "ingredients": [
+                        {
+                            "id": 10111549,
+                            "name": "marinara sauce",
+                            "localizedName": "marinara sauce",
+                            "image": "tomato-sauce-or-pasta-sauce.jpg"
+                        },
+                        {
+                            "id": 11507,
+                            "name": "sweet potato",
+                            "localizedName": "sweet potato",
+                            "image": "sweet-potato.png"
+                        },
+                        {
+                            "id": 11209,
+                            "name": "eggplant",
+                            "localizedName": "eggplant",
+                            "image": "eggplant.png"
+                        },
+                        {
+                            "id": 10011457,
+                            "name": "spinach",
+                            "localizedName": "spinach",
+                            "image": "spinach.jpg"
+                        }
+                    ],
+                    "equipment": []
+                },
+                {
+                    "number": 5,
+                    "step": "Mix, Eggplants, Then finally sprinkle the remaining Monterey Jack/Cheddar Cheese Blend on top.",
+                    "ingredients": [
+                        {
+                            "id": 1009,
+                            "name": "cheddar cheese",
+                            "localizedName": "cheddar cheese",
+                            "image": "cheddar-cheese.png"
+                        },
+                        {
+                            "id": 1001025,
+                            "name": "monterey jack cheese",
+                            "localizedName": "monterey jack cheese",
+                            "image": "shredded-cheese-white.jpg"
+                        },
+                        {
+                            "id": 11209,
+                            "name": "eggplant",
+                            "localizedName": "eggplant",
+                            "image": "eggplant.png"
+                        }
+                    ],
+                    "equipment": []
+                },
+                {
+                    "number": 6,
+                    "step": "Bake at 350-375 for about 35-45 min, depending on how your oven works. You'll know it's ready when you can pass through a fork easily through all the layers.Devour with Passion",
+                    "ingredients": [],
+                    "equipment": [
+                        {
+                            "id": 404784,
+                            "name": "oven",
+                            "localizedName": "oven",
+                            "image": "oven.jpg"
+                        }
+                    ],
+                    "length": {
+                        "number": 45,
+                        "unit": "minutes"
+                    }
+                }
+            ]
+        }
+    ],
+    "originalId": null,
+    "spoonacularScore": 85.95233917236328,
+    "spoonacularSourceUrl": "https://spoonacular.com/how-sweet-it-is-sweet-potato-lasagne-647563"
+}
