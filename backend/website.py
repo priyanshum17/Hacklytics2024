@@ -21,7 +21,7 @@ st.set_page_config(layout="wide")
 
 
 def main():
-    st.title("LET 'EM COOK")
+    st.title("MEAL FORECAST")
 
     col1, col2, col3 = st.columns(3)
     # Weight input
