@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(layout="wide")
 
 def main():
-    st.title("LET 'EM COOK")
+    st.title("LET 'EM COOK 🔥🔥🔥")
 
     col1, col2 = st.columns(2)
     # Weight input
