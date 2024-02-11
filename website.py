@@ -6,13 +6,16 @@ st.set_page_config(layout="wide")
 def main():
     st.title("LET 'EM COOK 🔥🔥🔥")
 
-    col1, col2 = st.columns(2)
+    col1, col2, col3 = st.columns(3)
     # Weight input
     with col1:
         age = st.number_input("Age", min_value=14, max_value=100, step=1)
     # Age input
     with col2:
         weight = st.number_input("Weight", min_value=0, max_value=400, step=1)
+    
+    with col3:
+        gender = st.selectbox("Enter Gender", ["Female", "Male"])
 
     col1, col2 = st.columns(2)
     # Height input
