@@ -24,6 +24,23 @@ class Meal:
   	
     def parse_ingredients(self, ingredients):
         return [(ingredient["id"], ingredient["amount"]) for ingredient in ingredients]
+    
+    def __str__(self):
+        output = ''
+        output += "title: " + self.title
+        output += '\n'
+        output += "restrictions: " + str(self.restrictions)
+        output += '\n'
+        output += "nutrition: " + str(self.nutrition)
+        output += '\n'
+        output += "ingredients: " + str(self.ingredients)
+        output += '\n'
+        output += "categories: " + str(self.categories)
+        output += '\n'
+        output += "cuisines: " + str(self.cuisines)
+        output += '\n'
+        output += "cook time: " + str(self.time)
+        return output
 
 class MealPlan:
 
