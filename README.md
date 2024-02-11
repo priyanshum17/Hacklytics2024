@@ -12,4 +12,5 @@ One of our main challenges was formulating our optimization problem for diet pla
 ## How to run our project
 1) Clone this repository
 2) Pip install the following packages: `pygad`, `streamlit`, `numpy`, `beautifulsoup4`, `seleniumbase`, `selenium`
-3) Run `streamlit run website.py`
+3) Change directory to `backend`
+4) Run `streamlit run website.py`
