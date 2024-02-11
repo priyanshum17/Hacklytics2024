@@ -45,17 +45,16 @@ def main():
     col1, col2, col3 = st.columns(3)
     with col1:
         options = ["N/A","Increase Weight", "Decrease Weight", "More Muscles"]
-        type_option = st.selectbox("Select an option", ["Balanced Diet","Increase Weight", "Decrease Weight", "More Muscles"])
+        type_option = st.selectbox("Select a diet goal", ["Balanced Diet","Increase Weight", "Decrease Weight", "More Muscles"])
     with col2:
-        diet_option = st.selectbox("Select a diet option", ["Non-Vegetarian", "Vegetarian", "Vegan", "Dairy Free", "Gluten Free"])
+        diet_option = st.selectbox("Select a dietary restriction", ["Non-Vegetarian", "Vegetarian", "Vegan", "Dairy Free", "Gluten Free"])
     with col3:
         cuisines = ["African", "Asian","American","British", "Cajun","Caribbean","Chinese","Eastern European","European","French",
                     "German","Greek","Indian","Irish","Italian","Japanese","Jewish","Korean","Latin American","Mediterranean","Mexican",
                     "Middle Eastern","Nordic","Southern","Spanish","Thai","Vietnamese"]
-        cusine_option = st.selectbox("Select Cuisine", cuisines)
+        cusine_option = st.selectbox("Select a preferred cuisine", cuisines)
 
-
-    with open("ingredients_2.json", "r") as file:
+    with open("ingredients.json", "r") as file:
         ingredients_set = eval(file.read())
 
 # Convert the set to a list
@@ -95,7 +94,6 @@ def main():
         get_data(User._meal_types, User._restrictions)
         solution = np.array(run_ga())
         st.session_state.solution = np.reshape(solution, newshape=(7,3))
-
     
     
     with tab1:
