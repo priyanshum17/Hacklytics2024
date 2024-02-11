@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rectangle Button Component</title>
+<style>
+  .rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: #ccc;
+    border: 2px solid #666;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+  }
+</style>
+</head>
+<body>
+
+<div class="rectangle" id="rectangle">
+  <span id="text">Click Me</span>
+</div>
+
+<script>
+  document.addEventListener('click', function(event) {
+    // Check if the clicked element is the text inside the rectangle
+    var text = document.getElementById('text');
+    var isTextClicked = text.contains(event.target);
+    
+    if (isTextClicked) {
+      // Action to be performed when the text is clicked
+      alert("Text clicked!");
+    } else {
+      // Action to be performed when the rectangle is clicked
+      alert("Rectangle clicked!");
+    }
+  });
+</script>
+
+</body>
+</html>
